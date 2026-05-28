@@ -1,6 +1,5 @@
 package model ;
 
-import java.security.PublicKey;
 import java.time.LocalDateTime;
 
 public class Customer {
@@ -94,13 +93,13 @@ public class Customer {
         updateFlight(newDepartureDate, newArrivalDate, 0);
     }
 
-    public Customer Search(String passportNumber){
-        // Code here After DB 
-        return Customer ;
+    public Customer searchByPassportNumber(String passportNumber){
+    // Code here after DB
+    return null;
     }
 
-    public Customer Search(String name){
-        // code here after DB 
-        
+    public Customer searchByName(String name){
+    // Code here after DB
+    return null;
     }
 }
