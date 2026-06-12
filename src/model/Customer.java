@@ -1,106 +1,106 @@
-package model ;
+// package model ;
 
-import java.security.PublicKey;
-import java.time.LocalDateTime;
+// import java.security.PublicKey;
+// import java.time.LocalDateTime;
 
-public class Customer {
+// public class Customer {
 
-    private String fullName;
-    private String passportNumber;
-    private LocalDateTime departureDate;
-    private LocalDateTime arrivalDate;
-    private String destination;
-    private int transitDuration;
-    private boolean status;
+//     private String fullName;
+//     private String passportNumber;
+//     private LocalDateTime departureDate;
+//     private LocalDateTime arrivalDate;
+//     private String destination;
+//     private int transitDuration;
+//     private boolean status;
 
-    // ================= GETTERS =================
+//     // ================= GETTERS =================
 
-    public String getFullName() {
-        return fullName;
-    }
+//     public String getFullName() {
+//         return fullName;
+//     }
 
-    public String getPassportNumber() {
-        return passportNumber;
-    }
+//     public String getPassportNumber() {
+//         return passportNumber;
+//     }
 
-    public LocalDateTime getDepartureDate() {
-        return departureDate;
-    }
+//     public LocalDateTime getDepartureDate() {
+//         return departureDate;
+//     }
 
-    public LocalDateTime getArrivalDate() {
-        return arrivalDate;
-    }
+//     public LocalDateTime getArrivalDate() {
+//         return arrivalDate;
+//     }
 
-    public String getDestination() {
-        return destination;
-    }
+//     public String getDestination() {
+//         return destination;
+//     }
 
-    public int getTransitDuration() {
-        return transitDuration;
-    }
+//     public int getTransitDuration() {
+//         return transitDuration;
+//     }
 
-    public boolean getStatus() {
-        return status;
-    }
+//     public boolean getStatus() {
+//         return status;
+//     }
 
-    // ================= SETTERS =================
+//     // ================= SETTERS =================
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
+//     public void setFullName(String fullName) {
+//         this.fullName = fullName;
+//     }
 
-    public void setPassportNumber(String passportNumber) {
-        this.passportNumber = passportNumber;
-    }
+//     public void setPassportNumber(String passportNumber) {
+//         this.passportNumber = passportNumber;
+//     }
 
-    public void setDepartureDate(LocalDateTime departureDate) {
-        this.departureDate = departureDate;
-    }
+//     public void setDepartureDate(LocalDateTime departureDate) {
+//         this.departureDate = departureDate;
+//     }
 
-    public void setArrivalDate(LocalDateTime arrivalDate) {
-        this.arrivalDate = arrivalDate;
-    }
+//     public void setArrivalDate(LocalDateTime arrivalDate) {
+//         this.arrivalDate = arrivalDate;
+//     }
 
-    public void setDestination(String destination) {
-        this.destination = destination;
-    }
+//     public void setDestination(String destination) {
+//         this.destination = destination;
+//     }
 
-    public void setTransitDuration(int transitDuration) {
-        this.transitDuration = transitDuration;
-    }
+//     public void setTransitDuration(int transitDuration) {
+//         this.transitDuration = transitDuration;
+//     }
 
-    public void setStatus(boolean status) {
-        this.status = status;
-    }
+//     public void setStatus(boolean status) {
+//         this.status = status;
+//     }
 
-    // ================= METHODS =================
+//     // ================= METHODS =================
 
-    public void updateStatus() {
-        this.status = true;
-    }
+//     public void updateStatus() {
+//         this.status = true;
+//     }
 
-    public void updateFlight(LocalDateTime newDepartureDate,
-        LocalDateTime newArrivalDate,
-        int transit) {
+//     public void updateFlight(LocalDateTime newDepartureDate,
+//         LocalDateTime newArrivalDate,
+//         int transit) {
 
-        this.departureDate = newDepartureDate;
-        this.arrivalDate = newArrivalDate;
-        this.transitDuration = transit;
-    }
+//         this.departureDate = newDepartureDate;
+//         this.arrivalDate = newArrivalDate;
+//         this.transitDuration = transit;
+//     }
 
-    public void updateFlight(LocalDateTime newDepartureDate,
-        LocalDateTime newArrivalDate) {
+//     public void updateFlight(LocalDateTime newDepartureDate,
+//         LocalDateTime newArrivalDate) {
 
-        updateFlight(newDepartureDate, newArrivalDate, 0);
-    }
+//         updateFlight(newDepartureDate, newArrivalDate, 0);
+//     }
 
-    public Customer Search(String passportNumber){
-        // Code here After DB 
-        return Customer ;
-    }
+//     public Customer Search(String passportNumber){
+//         // Code here After DB 
+//         return Customer ;
+//     }
 
-    public Customer Search(String name){
-        // code here after DB 
+//     public Customer Search(String name){
+//         // code here after DB 
         
-    }
-}
+//     }
+// }
