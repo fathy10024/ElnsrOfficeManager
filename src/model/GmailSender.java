@@ -11,9 +11,9 @@ import javax.mail.internet.MimeMessage;
 
 public class GmailSender {
 
-    private static final String EMAIL_FROM = "omartharwat244@gmail.com";
-    private static final String EMAIL_TO   = "omartharwat255@gmail.com";
-    private static final String APP_PASSWORD = "szwd vlji pndo ahne" ;
+    private static final String EMAIL_FROM = "";
+    private static final String EMAIL_TO   = "";
+    private static final String APP_PASSWORD = "" ;
                
 
     public static void sendEmail() throws Exception {
