@@ -22,8 +22,8 @@ public class GmailSender {
         Message message = new MimeMessage(session);
         message.setFrom(new InternetAddress(EMAIL_FROM));
         message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(EMAIL_TO));
-        message.setSubject("Email subject");
-        message.setText("This is my email sent from Gmail using Java");
+        message.setSubject("Testing Gmail API with Java");
+        message.setText("This is my email sent from Gmail using Java hello world!");
 
         Transport.send(message);
         System.out.println("Email sent successfully!");
@@ -35,6 +35,8 @@ public class GmailSender {
         props.put("mail.smtp.starttls.enable", "true");
         props.put("mail.smtp.host", "smtp.gmail.com");
         props.put("mail.smtp.port", "587");
+        props.put("mail.smtp.ssl.trust", "smtp.gmail.com"); 
+
 
         return Session.getInstance(props, new Authenticator() {
             @Override
